@@ -8,3 +8,7 @@ Here, we use the remote sensing image-text retrieval task as an example to demon
 (3) MLCE Loss Function Instructions: Users can view the source code in lines 22-32 of the loss.py file. Set the combination coefficient for the MLCE loss on line 19.
 
 Run: python -u train.py
+
+
+Additional Note: The version of the code we have open-sourced is an updated version of the code from the paper. Compared to the experimental code in the paper, the versions of Torch, CUDA, and cuDNN have been updated. We found that the open-source version yields results that are very close to those reported in the paper. While there may be some differences in the optimal hyperparameter search, this version can achieve slightly better results than those reported in the paper.
+
