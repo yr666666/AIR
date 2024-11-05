@@ -10,4 +10,4 @@ Here, we use the remote sensing image-text retrieval task as an example to demon
 Run: python -u train.py
 
 
-Additional Note: Additional Note: The version of the code we have open-sourced is an updated version from the paper. In the open-source version, the compatible versions of Torch, CUDA, and cuDNN have been updated. We found that the results from the open-source version are very close to those reported in the paper, although the optimal hyperparameters (such as the combination coefficient for MLCE loss) might differ slightly. This version can achieve slightly better results than those reported in the paper.
+Additional Note: The version of the code we have open-sourced is an updated version from the paper. In the open-source version, the compatible versions of Torch, CUDA, and cuDNN have been updated. We found that the results from the open-source version are very close to those reported in the paper, although the optimal hyperparameters (such as the combination coefficient for MLCE loss) might differ slightly. This version can achieve slightly better results than those reported in the paper.
