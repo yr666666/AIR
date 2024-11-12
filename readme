@@ -1,5 +1,5 @@
 
-#The official implementation for the paper "Accurate and Lightweight Learning for Specific Domain Image-Text Retrieval" from the 2024 ACM Multimedia Conference. 
+# The official implementation for the paper "Accurate and Lightweight Learning for Specific Domain Image-Text Retrieval" from the 2024 ACM Multimedia Conference. 
 
 The paper introduces two innovations: the MLCE loss and the SPDS strategy.
 
@@ -7,7 +7,7 @@ The current code is not complete; the SPDS section is still being organized...
 
 The version of the code we have open-sourced is an updated version from the paper. In the open-source version, the compatible versions of Torch, CUDA, and cuDNN have been updated. We recommend using Torch 1.9.1 with CUDA 11.1 (cu111).
 
-#Here, we use the remote sensing image-text retrieval task as an example to demonstrate how to use the code.
+ #Here, we use the remote sensing image-text retrieval task as an example to demonstrate how to use the code.
 
 ##(1) Data Preparation: Users should modify their data paths in lines 30-38 of adds/params.py (using RSITMD as an example in the file).
 ##(2) Model Weights Preparation: Users should modify the path to the pre-trained weights of the CLIP model in lines 45-49. We provide the CLIP weights "ViT-B-16.pt", available at: https://drive.google.com/file/d/1mMh-KwED4jbDJjSb2dIkF_um8yCxmCEr/view?usp=drive_link 
