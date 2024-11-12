@@ -3,7 +3,7 @@ The official implementation for the paper "Accurate and Lightweight Learning for
 
 The paper introduces two innovations: the MLCE loss and the SPDS strategy.
 
-** The current code is not complete; the SPDS section is still being organized... **
+*The current code is not complete; the SPDS section is still being organized... *
 
 The version of the code we have open-sourced is an updated version from the paper. In the open-source version, the compatible versions of Torch, CUDA, and cuDNN have been updated. We recommend using Torch 1.9.1 with CUDA 11.1 (cu111).
 
