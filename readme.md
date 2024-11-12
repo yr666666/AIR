@@ -15,7 +15,7 @@ Users can also download it from the official CLIP implementation or Hugging Face
 ### (3) MLCE Loss Function Instructions: Users can view the source code in lines 22-32 of the loss.py file. Set the combination coefficient for the MLCE loss on line 19.
 
 ## Recommended Hyperparameter Settings:
-In a Torch 1.9.1 with CUDA 11.1 (cu111) environment, we recommend setting the combination coefficient of the MLCE loss function to 30 for the RSITMD dataset and 10 for the RSICD dataset. 
+In a Torch 1.9.1 with CUDA 11.1 (cu111) environment, we recommend setting the combination coefficient of the MLCE loss function to **30** for the RSITMD dataset and **10** for the RSICD dataset. 
 We found that the optimal hyperparameters might vary with different PyTorch and CUDA versions. Therefore, we recommend users perform hyperparameter tuning in their own environments. 
 
 ## Run: python -u train.py
